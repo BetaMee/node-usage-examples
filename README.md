@@ -1,3 +1,5 @@
-## 使用 Node 过程中的一些 example
+## Node Usage Examples
 
-1. 使用基础的 Http 模块，开发一个 Http 服务器
+探究 Node.js 的使用潜力，本仓库记录各种使用 Node 的 examples，供以后的开发作参考
+
+1. 扫描 key 脚本
