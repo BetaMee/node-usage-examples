@@ -245,11 +245,11 @@ const extractAllKeys = async(resourcePath: string) => pipe(
 
 // *开始程序
 // 在命令行中 run: ./node_modules/.bin/ts-node ./scankey/index.ts
-// * 需求解读
+// *需求解读
 // 这个程序，主要目的是为了扫描项目文件中用到的 key。
 // 页面的文本是多语言 key 动态获取的，而非 hard code。如 page_book_detail_tip，它会在每一个站点动态地获取对应的文本。
 // 现在一个页面中有很多 key，这些 key 经过几年的迭代，很多不用了，需要扫描整理出来。
-// * 如何开始？
+// *如何开始？
 // 程序要做的事很简单：先获取 key 列表，然后每一个 key 都循环匹配每一个文件内容
 // 如果这个 key 不存在，则返回这个 key，最终不存在的这些 key 形成一个数组，放在 JSON 中。
 // 这就是整个程序要做的。
